@@ -57,11 +57,3 @@ func main() {
 		log.Fatal("Failed to run server")
 	}
 }
-
-echo "# S3-file-upload" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Ankit9114/S3-file-upload.git
-git push -u origin main
